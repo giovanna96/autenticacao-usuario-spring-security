@@ -13,17 +13,17 @@ public class AplicacaoController {
 	
 	@GetMapping("/")
 	public String home() {
-		return ("<h1>Hello world!</h1>");
+		return ("<h1>Bem vindo a Tela Home!</h1>");
 	}
 	
 	@GetMapping("/usuario-comum")
 	public String usuarioComum() {
-		return("<h1>Hello Usuário comum!</h1>");
+		return("<h1>Tela de acesso Usuário comum!</h1>");
 	}
 	
 	@GetMapping("/admin")
 	public String admin() {
-		return("<h1>Hello Usuário admin!</h1>");
+		return("<h1>Tela de acesso Usuário admin!</h1>");
 	}
 	
 	
